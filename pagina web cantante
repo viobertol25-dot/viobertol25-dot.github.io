@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Jack Ravenwood - Broken Streets</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.banner {
+    height: 300px;
+    background: url("https://images.unsplash.com/photo-1511379938547-c1f69419868d") center/cover;
+}
+
+section {
+    padding: 40px;
+}
+
+.card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* NUEVO: espacio para 3 imágenes */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.img-box {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Jack Ravenwood</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#canciones">Canciones</a>
+    <a href="#proceso">Proceso creativo</a>
+    <a href="#normas">Normas</a>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio">
+
+<div class="banner"></div>
+
+<h2>Bienvenido</h2>
+
+<p>
+Bienvenido a la página web de Jack Ravenwood, un cantante ficticio creado con inteligencia artificial.
+</p>
+
+<p>
+En esta web presentamos la canción “Broken Streets”, junto con su historia, estilo musical y el proceso creativo.
+</p>
+
+<p>
+Este proyecto consiste en crear una canción utilizando IA y diseñar una página web para presentar al artista inventado.
+</p>
+
+<!-- NUEVO: GALERÍA DE IMÁGENES -->
+<div class="galeria">
+    <img src="img/Jack_Ravenwood1.png" class="img-box">
+    <img src="img/Jack_Ravenwood2.png" class="img-box">
+    <img src="img/JackRavenwood3.png" class="img-box">
+</div>
+
+</section>
+
+<!-- CANCIONES -->
+<section id="canciones">
+
+<h2>Canciones</h2>
+
+<div class="card">
+
+<h3>Broken Streets</h3>
+
+<p><strong>Autor:</strong> Jack Ravenwood</p>
+<p><strong>Género:</strong> Rock</p>
+<p><strong>Edad:</strong> 32 años</p>
+<p><strong>Origen:</strong> Manchester, Inglaterra</p>
+<p><strong>Estilo:</strong> Rock alternativo con influencias de britpop y grunge</p>
+
+<p><strong>Descripción:</strong> Canción intensa sobre la vida en barrios obreros y la lucha personal.</p>
+
+<h4>Historia:</h4>
+
+<p>
+Jack Ravenwood nació en un barrio obrero de Manchester, rodeado de fábricas abandonadas y grafitis. Desde pequeño mostró interés por la música gracias a su padre, un exguitarrista que le enseñó a tocar.
+</p>
+
+<p>
+Durante su adolescencia fue rebelde y encontró refugio en la música, escribiendo letras llenas de emoción.
+</p>
+
+<p>
+Su salto a la fama llegó cuando publicó “Broken Streets” en internet, volviéndose viral.
+</p>
+
+<p>
+Es conocido por su voz rasgada y sus letras sobre la vida y la sociedad.
+</p>
+
+<h4>Letra:</h4>
+
+<p>
+<strong>Verse 1:</strong><br>
+I walk alone through broken streets<br>
+Neon lights and shattered dreams<br>
+Voices echo in my head<br>
+All the words we left unsaid<br><br>
+
+<strong>Pre-Chorus:</strong><br>
+Every night I feel the same<br>
+Running wild but stuck in chains<br><br>
+
+<strong>Chorus:</strong><br>
+I’m screaming out into the dark<br>
+Trying to find a missing spark<br>
+If I fall, will I be free?<br>
+Or just another memory?<br><br>
+
+<strong>Verse 2:</strong><br>
+Cold wind cuts like shattered glass<br>
+Moments fade but never pass<br>
+I see your shadow in the rain<br>
+Calling out my name again<br><br>
+
+<strong>Pre-Chorus:</strong><br>
+Every scar I try to hide<br>
+Burns like fire deep inside<br><br>
+
+<strong>Chorus:</strong><br>
+I’m screaming out into the dark<br>
+Trying to find a missing spark<br>
+If I fall, will I be free?<br>
+Or just another memory?<br><br>
+
+<strong>Bridge:</strong><br>
+If I break, don’t let me go<br>
+Hold the pieces, let me know<br>
+There’s a reason I still fight<br>
+Through the chaos, through the night<br><br>
+
+<strong>Final Chorus:</strong><br>
+I’m screaming out into the dark<br>
+Still chasing down that fading spark<br>
+If I fall, remember me<br>
+More than just a memory
+</p>
+<h4>Reproductor de audio:</h4>
+
+<audio controls>
+    <source src="img/Broken Streets.mp3" type="audio/mpeg">
+    
+</audio>
+   
+</div>
+ <div class="card">
+
+<h3>City of Ashes</h3>
+
+<p><strong>Autor:</strong> Jack Ravenwood</p>
+<p><strong>Género:</strong> Rock alternativo</p>
+<p><strong>Edad:</strong> 32 años</p>
+<p><strong>Origen:</strong> Manchester, Inglaterra</p>
+<p><strong>Estilo:</strong> Grunge / Britpop</p>
+
+<p><strong>Descripción:</strong> Canción sobre la lucha en una ciudad destruida por la vida moderna.</p>
+
+<h4>Historia:</h4>
+
+<p>
+“City of Ashes” refleja el caos urbano, la pérdida de identidad y la lucha interna del protagonista.
+</p>
+<h4>Letra:</h4>
+
+<p>
+<strong>Verse 1:</strong><br>
+Rain falls hard on the avenue<br>
+Broken glass under worn-out shoes<br>
+Sirens cry through the midnight haze<br>
+Another kid trying to escape the maze<br><br>
+
+<strong>Pre-Chorus:</strong><br>
+And I keep running from the ghost inside<br>
+A thousand scars that I can’t hide<br><br>
+
+<strong>Chorus:</strong><br>
+We’re the kings of a city of ashes<br>
+Burning bright while the whole world crashes<br>
+No tomorrow, no place to hide<br>
+Just broken hearts and a reckless ride<br>
+Oh, we rise when the lights go down<br>
+Lost souls screaming through this town<br><br>
+
+<strong>Verse 2:</strong><br>
+Old tattoos and nicotine dreams<br>
+Nothing here is what it seems<br>
+Your voice still echoes in these halls<br>
+Like faded names on ruined walls<br><br>
+
+<strong>Pre-Chorus:</strong><br>
+Every memory cuts so deep<br>
+Still awake when the streets all sleep<br><br>
+
+<strong>Chorus:</strong><br>
+We’re the kings of a city of ashes<br>
+Burning bright while the whole world crashes<br>
+No tomorrow, no place to hide<br>
+Just broken hearts and a reckless ride<br>
+Oh, we rise when the lights go down<br>
+Lost souls screaming through this town<br><br>
+
+<strong>Bridge:</strong><br>
+If the sky falls over me tonight<br>
+I’ll still be singing through the firelight<br>
+No regrets, no turning back<br>
+Just smoke and shadows dressed in black<br><br>
+
+<strong>Final Chorus:</strong><br>
+We’re the kings of a city of ashes<br>
+Holding on while the flame still flashes<br>
+If we fall, let the world recall<br>
+We were alive through it all
+</p>
+<h4>Reproductor de audio:</h4>
+
+<audio controls>
+    <source src="img/“City of Ashes”.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+</section>
+
+<!-- PROCESO CREATIVO -->
+<section id="proceso">
+
+<h2>Proceso creativo</h2>
+
+<h3>Idea inicial</h3>
+<p>Crear una canción de un cantante inventado mediante inteligencia artificial.</p>
+
+<h3>Herramientas utilizadas</h3>
+<p>ChatGPT y Suno.</p>
+
+<h3>Prompts utilizados</h3>
+<p>Crear un cantante inglés de rock, su historia y la letra de una canción.</p>
+
+<h3>Creación y edición</h3>
+<p>
+Se generó la letra con IA y se definió el estilo rock. Después se hicieron pequeñas modificaciones manuales.
+</p>
+
+</section>
+
+<!-- NORMAS -->
+<section id="normas">
+
+<h2>Normas</h2>
+
+<h3>Uso responsable de la IA</h3>
+<p>Cuando se utiliza inteligencia artificial para crear música, es importante hacerlo de forma responsable y respetando los derechos de autor y las licencias de uso. Para evitar problemas legales, lo primero es revisar las condiciones de la herramienta de IA que se utiliza, ya que cada plataforma establece normas diferentes sobre la propiedad y el uso comercial de las canciones generadas. Algunas permiten que el usuario tenga todos los derechos sobre la obra, mientras que otras conservan parte de ellos o limitan su monetización.
+Además, es fundamental utilizar recursos con licencias claras. Si se emplean samples, loops, voces, bases musicales o imágenes creadas por terceros, hay que comprobar qué tipo de licencia tienen y si permiten modificaciones o uso comercial. En muchos casos también es obligatorio dar crédito al autor original, especialmente cuando se usan licencias Creative Commons del tipo “CC BY”.
+Otro aspecto importante es evitar las imitaciones exactas de artistas reales. Aunque la IA pueda generar canciones muy parecidas al estilo de un cantante o incluso copiar su voz, esto puede infringir derechos de autor y derechos de imagen. Por eso, la inteligencia artificial debe entenderse como una herramienta de apoyo creativo y no como un medio para copiar obras existentes.
+En conclusión, para usar IA en la creación musical de forma segura y ética, se recomienda crear contenido original, leer siempre las licencias de uso, dar créditos cuando sea necesario y evitar copiar canciones, voces o estilos reconocibles de otros artistas.
+</p>
+
+<h3>Privacidad y protección de datos</h3>
+<p>El copyright protege obras originales: música, letras, voces, samples, portadas, etc.
+Qué no puedes hacer
+Copiar una canción existente y “hacerla parecida”.
+Usar melodías, letras o samples protegidos sin permiso.
+Clonar la voz de un cantante famoso sin autorización.
+Entrenar o pedir a una IA que imite exactamente a un artista.
+Qué sí puedes hacer
+Crear música original con IA.
+Inspirarte en géneros (“estilo synthwave”, “rock alternativo”, etc.).
+Usar contenido con licencia libre o permiso explícito.
+El copyleft viene del software y algunas obras culturales. Puedes usar y modificar la obra, pero debes compartir tu versión con la misma licencia.
+Las licencias Creative Commons permiten usar obras bajo ciertas condiciones.
+Las más comunes:
+CC BY: usar incluso comercialmente, dando crédito
+CC BY-SA: Igual que BY, pero compartiendo igual
+CC BY-NC: No uso comercial
+CC BY-ND: No modificar
+CC0: Dominio público, casi sin restricciones
+
+</p>
+
+<h3>Derechos de autor</h3>
+<p>Reconocer el uso de herramientas digitales y evitar el plagio.</p>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<p><strong>Nombre:</strong> Viola Bertolone</p>
+<p><strong>Curso:</strong> 1º Bach C</p>
+<p><strong>Asignatura:</strong> Digitalización</p>
+<p><strong>Créditos:</strong> Privacidad y protección de datos (copyright, copyleft y Creative Commons)</p>
+
+</footer>
+
+
+</script>
+</body>
+</html>
